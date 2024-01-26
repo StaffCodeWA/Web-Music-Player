@@ -1,0 +1,89 @@
+html {
+    background-color: #2B2B2B;
+    color: white;
+    font-family: 'Tahoma', sans-serif;
+  }
+  
+  .container {
+    padding: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    width: 460px;
+  }
+  
+  .music {
+    background-color: black;
+    border-radius: 20px;
+    width: 100%;
+  }
+  
+  svg {
+    width: 40px;
+    height: 40px;
+    fill: white;
+    
+    margin: 12px;
+    
+    cursor: pointer;
+    transition: fill 0.3s ease;
+  }
+  
+  svg:hover {
+    fill: grey;
+  }
+  
+  .image-container {
+    max-width: 520px;
+    margin: 20px;
+  }
+  
+  .album-image {
+    box-shadow: 0 0 15px 8px black;
+    border-radius: 2%;
+    width: 100%;
+  }
+  
+  .album-image, .music-details {
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .music-details * {
+    margin-bottom: 5px;
+  }
+  
+  .music-details h3 {
+    margin-top: 10px;
+    font-size: 16px;
+    color: grey;
+  }
+  
+  .music-details h1 {
+    font-size: 28px;
+  }
+  
+  .music-control, .header, .time-container {
+    width: 100%;
+    display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+  }
+  
+  .time-container {
+    padding-bottom: 20px;
+  }
+  
+  .music {
+    width: 100%;
+  }
+  
+  .music-length {
+    width: 400px;
+  }
+  
+  
